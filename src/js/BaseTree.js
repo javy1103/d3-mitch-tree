@@ -1194,6 +1194,46 @@ class BaseTree extends EventEmitter {
         return this;
     }
 
+        /**
+     * Triggers the nodeDblClick event when a
+     * D3 node is clicked on, and proceeds
+     * to focus/expand/collapse the node.
+     * 
+     * @param {object} nodeDataItem The D3 node data item that was clicked.
+     * @param {number} index The index of the D3 node being clicked in the array of siblings.
+     * @param {object[]} arr Array of siblings D3 node, inclusive of the clicked node data item itself.
+     * @emits {nodeDblClick} Emit node click event.
+     * @returns {boolean} True meaning it successfully focused/expanded/collapsed a node. False otherwise.
+     */
+    _onNodeDblClick(nodeDataItem, index, arr) {
+        var eventType = null;
+        if (this.getAllowFocus())
+            eventType = 'focus';
+        else if (nodeDataItem.children)
+            eventType = 'collapse';
+        else
+            eventType = 'expand';
+        
+        var event = {
+            type: eventType,
+            continue: true,
+            nodeDataItem: nodeDataItem,
+            nodeDataItemIndex: index,
+            nodeDataItems: arr,
+            preventDefault: function() {
+                event.continue = false;
+            }
+        }
+        this.emit('nodeDblClick', event);
+        if (event.continue === false)
+            return false;
+        if (this.getAllowFocus())
+            this.nodeFocus.call(this, nodeDataItem);
+        else
+            this.nodeToggle.call(this, nodeDataItem);
+        return true;
+    }
+
     /**
      * Triggers the nodeClick event when a
      * D3 node is clicked on, and proceeds
@@ -1464,6 +1504,7 @@ class BaseTree extends EventEmitter {
                     return "translate(" + nodeDataItem.y0 + "," + nodeDataItem.x0 + ")";
             })
             .on("click", (data, index, arr) => this._onNodeClick.call(this, data, index, arr));
+            .on("dblclick", (data, index, arr) => this._onNodeDblClick.call(this, data, index, arr));
 
         this._nodeEnter(nodeEnter, nodes);
 
