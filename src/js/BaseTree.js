@@ -1506,6 +1506,7 @@ class BaseTree extends EventEmitter {
             .on("click", (data, index, arr) => this._onNodeClick.call(this, data, index, arr))
             .on("dblclick", (data, index, arr) => this._onNodeDblClick.call(this, data, index, arr));
 
+
         this._nodeEnter(nodeEnter, nodes);
 
         // UPDATE
