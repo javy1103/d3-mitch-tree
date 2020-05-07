@@ -19,9 +19,9 @@ Note that you don't actually need `D3` itself to start using this library. You c
 
 You can alternatively use CDN so you don't have to download and set up the files:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-default.min.css">
+<script src="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-default.min.css">
 ```
 
 ## With NPM

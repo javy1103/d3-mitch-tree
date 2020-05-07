@@ -1503,7 +1503,7 @@ class BaseTree extends EventEmitter {
                 else
                     return "translate(" + nodeDataItem.y0 + "," + nodeDataItem.x0 + ")";
             })
-            .on("click", (data, index, arr) => this._onNodeClick.call(this, data, index, arr));
+            .on("click", (data, index, arr) => this._onNodeClick.call(this, data, index, arr))
             .on("dblclick", (data, index, arr) => this._onNodeDblClick.call(this, data, index, arr));
 
         this._nodeEnter(nodeEnter, nodes);

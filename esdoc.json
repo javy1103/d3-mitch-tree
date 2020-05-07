@@ -20,7 +20,7 @@
             "name": "esdoc-standard-plugin",
             "option": {
                 "brand": {
-                    "repository": "https://github.com/deltoss/d3-mitch-tree"
+                    "repository": "https://github.com/javy1103/d3-mitch-tree"
                 },
                 "manual": {
                   "index": "./manual/index.md",

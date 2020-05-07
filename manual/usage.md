@@ -12,9 +12,9 @@ initialise to be a tree. It could look something like the below:
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
-        <script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-default.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-default.min.css">
     </head>
     <body>
         <section id="visualisation">
@@ -128,9 +128,9 @@ The final code would look like this:
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
-        <script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
     </head>
     <body>
         <section id="visualisation">
@@ -315,9 +315,9 @@ The final code would look like this:
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
-        <script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/javy1103/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
     </head>
     <body>
         <section id="visualisation">
@@ -407,6 +407,6 @@ The final code would look like this:
 ## Additional Information
 
 For more information on the usage:
-* Open up and view the example HTML files inside the repo's [examples folder](https://github.com/deltoss/d3-mitch-tree/tree/master/examples).
+* Open up and view the example HTML files inside the repo's [examples folder](https://github.com/javy1103/d3-mitch-tree/tree/master/examples).
 * Clone/download the repo and run the HTML files inside the `examples` folder.
 * Refer to the API documentations.

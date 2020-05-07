@@ -1,5 +1,5 @@
 module.exports = {
-  repositoryUrl: 'https://github.com/deltoss/d3-mitch-tree.git',
+  repositoryUrl: 'https://github.com/javy1103/d3-mitch-tree.git',
   plugins: [
     // Default plugins
     ['@semantic-release/commit-analyzer', {

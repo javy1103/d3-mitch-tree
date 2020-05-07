@@ -23,12 +23,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deltoss/d3-mitch-tree.git"
+    "url": "git+https://github.com/javy1103/d3-mitch-tree.git"
   },
   "author": "Michael Tran <MTran0011@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deltoss/d3-mitch-tree/issues"
+    "url": "https://github.com/javy1103/d3-mitch-tree/issues"
   },
   "homepage": "https://d3-mitch-tree.netlify.com",
   "devDependencies": {
